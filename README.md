@@ -1,6 +1,6 @@
 ﻿# JonDJones.Umbraco.V13.StarterKit  :heart_eyes: - By JONDJONES.COM
 
-This is a .NET COre Umbraco V13 Stater kit.  Use this project to learn how to create a website using Umbraco 13.  
+This is a .NET Core Umbraco V13 Stater kit.  Use this project to learn how to create a website using Umbraco 13.  
 To learn more about me or Umbraco then either visit my website [www.jondjones.co.uk](www.jondjones.co.uk), or, 
 subscribe to my [YouTube channel](https://www.youtube.com/jondjones).
 
@@ -10,7 +10,7 @@ This is an open-source repo.  If you would like to add something or correct a mi
 
 ## :rocket: Getting Started
 
-1. Rstore DB from data folder
+1. Restore DB from data folder
 2. Login on `/umbraco` with :
 
 | Email            | Password          |
