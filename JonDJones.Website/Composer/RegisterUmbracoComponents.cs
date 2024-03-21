@@ -5,9 +5,9 @@ namespace JonDJones.Website.Composer;
 
 public class RegisterUmbracoComponents : IComposer
 {
-    public void Compose(IUmbracoBuilder builder)
-    {
-        // Example of to register last chance finder
-        builder.SetContentLastChanceFinder<PageNotFoundContentFinder>();
-    }
+	public void Compose(IUmbracoBuilder builder)
+	{
+		// Example of to register last chance finder
+		builder.SetContentLastChanceFinder<PageNotFoundContentFinder>();
+	}
 }

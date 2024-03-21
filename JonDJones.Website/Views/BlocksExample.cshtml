@@ -1,0 +1,26 @@
+﻿@model BlocksExample
+
+<!-- Main -->
+<section id="main">
+	<div class="container">
+		<div class="row">
+
+			<h1>Blocks Example Page</h1>
+
+			<!-- Content -->
+			<div id="content" class="col-12 col-12-medium">
+
+				@Html.GetBlockListHtml(Model.BlockList)
+	
+			</div>
+
+			<!-- Content -->
+			<div id="content" class="col-12 col-12-medium">
+
+				@Html.GetBlockGridHtml(Model.Grid)
+
+			</div>
+
+		</div>
+	</div>
+</section>

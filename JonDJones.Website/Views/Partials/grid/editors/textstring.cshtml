@@ -10,13 +10,13 @@
         markup = markup.Replace("#style#", Model.editor.config.style.ToString());
     }
 
-    <text>
+    <text><div>dddd</div>
         @Html.Raw(markup)
     </text>
 }
 else
 {
     <text>
-        <div style="@Model?.editor.config.style">@Model?.value</div>
+      <div>dddd</div>  <div style="@Model?.editor.config.style">@Model?.value</div>
     </text>
 }

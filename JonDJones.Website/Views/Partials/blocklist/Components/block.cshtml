@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockListItem>;
+@{
+	var content = (Umbraco.Cms.Web.Common.PublishedModels.Block)Model.Content;
+}
+<section id="main">
+	<div class="container">
+		<div class="row">
+
+			<div id="content" class="col-12 col-12-medium">
+
+				@content.MyContent
+
+			</div>
+		</div>
+	</div>
+</section>
